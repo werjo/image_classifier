@@ -13,11 +13,10 @@ The data for this project is quite large - in fact, it is so large you cannot up
 ### Project Setup
 
 python Version: 3.6.5
-
 Conda Version: 4.5.11
 
 ### Run train.py
-
+```
 optional arguments:
   -h, --help            show this help message and exit
   --gpu                 Architecture, select if gpu is used for training
@@ -33,9 +32,9 @@ optional arguments:
                         Input folder for training and testing images
   --output_folder OUTPUT_FOLDER
                         Output folder where to store the model
-
+```
 ### Run predict.py
-
+```
 positional arguments:
   input                 path to checkpoint
   path_to_image         path to image to predict
@@ -45,4 +44,4 @@ optional arguments:
   --top_k TOP_K         print top k classe, default is 5
   --category_names CATEGORY_NAMES
                         A json file to map class names to the output
- 
+ ```
