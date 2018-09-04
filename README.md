@@ -32,6 +32,7 @@ optional arguments:
                         Input folder for training and testing images
   --output_folder OUTPUT_FOLDER
                         Output folder where to store the model
+                        
 ```
 ### Run predict.py
 ```
@@ -44,4 +45,5 @@ optional arguments:
   --top_k TOP_K         print top k classe, default is 5
   --category_names CATEGORY_NAMES
                         A json file to map class names to the output
- ```
+
+```
