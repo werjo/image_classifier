@@ -32,8 +32,11 @@ optional arguments:
                         Input folder for training and testing images
   --output_folder OUTPUT_FOLDER
                         Output folder where to store the model
-                        
+
 ```
+
+Example: python train.py --gpu --model_init vgg19 --hidden_layers 4000 2000 500 --dropout=0.33 --epochs=8 --lr=0.001
+
 ### Run predict.py
 ```
 positional arguments:
@@ -47,3 +50,6 @@ optional arguments:
                         A json file to map class names to the output
 
 ```
+
+Example: python predict.py out/checkpoint.pth flowers/test/46/image_00958.jpg --gpu --top_k=3
+
